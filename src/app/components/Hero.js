@@ -17,7 +17,7 @@ export default function Hero() {
                         <button className="btn-download">
                             <span>
                                 <Image 
-                                    src="/images/playstore.png" 
+                                    src="/images/Playstore.png" 
                                     alt="Google Play Store" 
                                     width={24} 
                                     height={24} 
