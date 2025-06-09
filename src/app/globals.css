@@ -521,8 +521,12 @@ h5 {
     gap: 12rem;
 }
 
-.about-main-1,
-.about-main-2 {
+.about-main-1
+ {
+    display: flex;
+    justify-content: space-between;
+}
+.about-main-2  {
     display: flex;
     justify-content: space-between;
 }
