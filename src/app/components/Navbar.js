@@ -14,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navbar-container">
       <div className="nav-logo">
-        <Image src="/images/billia-logo.png" className="logo" alt="Billia Logo" />
+        <img src="/images/billia-logo.png" className="logo" alt="Billia Logo" />
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>

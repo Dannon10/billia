@@ -12,12 +12,12 @@ export default function Hero() {
                     <button className="btn-download"><span><img  src="/images/apple (2).png" className="app-icons apple"/></span> Download on the <br/> App Store</button>
                     </div>
                     <div className="community">
-                        <Image src="/images/hero-users.png" className="hero-users"/>
+                        <img src="/images/hero-users.png" className="hero-users"/>
                         <p>Join 20,000+ Nigerians making payments smarter every day.</p>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <Image src="/images/hero-image.png" className="hero-img" />
+                    <img src="/images/hero-image.png" className="hero-img" />
                 </div>
             </div>
         </div>

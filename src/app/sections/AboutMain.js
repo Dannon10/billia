@@ -1,5 +1,6 @@
 
-/* eslint-disable react/no-unescaped-entities */export default function AboutMain() {
+/* eslint-disable react/no-unescaped-entities */
+export default function AboutMain() {
     return (
         <section className='about-main-section'>
             <div className='about-main-details'>
@@ -19,14 +20,14 @@
                     </div>
 
                     <div>
-                        <Image src='/images/image 10.png' className='about-main-img' />
+                        <img src='/images/image 10.png' className='about-main-img' />
                     </div>
 
                 </div>
 
                 <div className='about-main-2'>
                     <div>
-                        <Image src='/images/image 11.png' className='about-main-img' />
+                        <img src='/images/image 11.png' className='about-main-img' />
                     </div>
                     <div className='about-main-text'>
                         <h3>Our Mission & Vision</h3>

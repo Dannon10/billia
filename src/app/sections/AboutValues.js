@@ -11,7 +11,7 @@ export default function AboutValues() {
                         {/* <br/> */}
                         no stress.</p>
                     <div className="value-image">
-                        <Image src='/images/compass.png' className="about-value-img" />
+                        <Iimg src='/images/compass.png' className="about-value-img" />
                     </div>
                 </div>
 
@@ -22,7 +22,7 @@ export default function AboutValues() {
                         time security
                         and compliance.</p>
                     <div className="value-image">
-                        <Image src='/images/lock.png' className="about-value-img" />
+                        <Iimg src='/images/lock.png' className="about-value-img" />
                     </div>
                 </div>
 
@@ -32,7 +32,7 @@ export default function AboutValues() {
                         {/* <br/>  */}
                         payments smarter every day.</p>
                     <div className="value-image">
-                        <Image src='/images/brain.png' className="about-value-img" />
+                        <Iimg src='/images/brain.png' className="about-value-img" />
                     </div>
                 </div>
 
@@ -43,7 +43,7 @@ export default function AboutValues() {
                         {/* <br/>  */}
                         needs and experience in mind.</p>
                     <div className="value-image">
-                        <Image src='/images/shake.png' className="about-value-img" />
+                        <img src='/images/shake.png' className="about-value-img" />
                     </div>
                 </div>
 
@@ -51,8 +51,8 @@ export default function AboutValues() {
             <div className="ready">
                 <h2>Ready to simplify your bills? <br /> Download Billia and experience the smarter way to pay.</h2>
                 <div className="download-btns about-download">
-                    <button className="btn-download"><span><Image src="/images/playstore.png" className="app-icons" /></span>GET IT ON <br />Google Play</button>
-                    <button className="btn-download"><span><Image src="/images/apple (2).png" className="app-icons apple" /></span> Download on the <br /> App Store</button>
+                    <button className="btn-download"><span><img src="/images/playstore.png" className="app-icons" /></span>GET IT ON <br />Google Play</button>
+                    <button className="btn-download"><span><img src="/images/apple (2).png" className="app-icons apple" /></span> Download on the <br /> App Store</button>
                 </div>
             </div>
         </section>
