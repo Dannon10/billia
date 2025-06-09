@@ -87,7 +87,7 @@ export default function AboutValues() {
           <button className="btn-download">
             <span>
               <Image
-                src="/images/playstore.png"
+                src="/images/Playstore.png"
                 alt="Google Play store icon"
                 width={40}
                 height={40}
