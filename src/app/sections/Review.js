@@ -1,4 +1,4 @@
-/* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
 import { FaArrowLeft, FaArrowRight } from 'react-icons/fa';
 
 export default function Review() {
@@ -14,14 +14,26 @@ export default function Review() {
         <div className='review-card'>
           <div className='review-head'>
             <div className='review-user-info'>
-              <img src='/images/Ellipse 29.png' alt="Arlene McCoy" className='ellipse-img' />
+              <Image 
+                src='/images/Ellipse 29.png' 
+                alt="Arlene McCoy" 
+                width={50} 
+                height={50} 
+                className='ellipse-img' 
+              />
               <div className='user-name'>
                 <h5>Arlene McCoy</h5>
                 <p>One year of using Billia</p>
               </div>
             </div>
             <span className='quote'>
-              <img src='/images/quote.png' alt="Quote icon" className='quote'/>
+              <Image 
+                src='/images/quote.png' 
+                alt="Quote icon" 
+                width={24} 
+                height={24} 
+                className='quote' 
+              />
             </span>
           </div>
           <p className='review-text'>
@@ -30,7 +42,12 @@ export default function Review() {
           <div className='review'>
             <p>4 June 2025</p>
             <span className='review-rating'>
-              <img src='/images/star-icon.png' alt="Star rating" /> 4.7/5.0
+              <Image 
+                src='/images/star-icon.png' 
+                alt="Star rating" 
+                width={16} 
+                height={16} 
+              /> 4.7/5.0
             </span>
           </div>
         </div>
@@ -38,14 +55,26 @@ export default function Review() {
         <div className='review-card'>
           <div className='review-head'>
             <div className='review-user-info'>
-              <img src='/images/Ellipse 29 (1).png' alt="Savannah Nguyen" className='ellipse-img' />
+              <Image 
+                src='/images/Ellipse 29 (1).png' 
+                alt="Savannah Nguyen" 
+                width={50} 
+                height={50} 
+                className='ellipse-img' 
+              />
               <div className='user-name'>
                 <h5>Savannah Nguyen</h5>
                 <p>Six Months of using Billia</p>
               </div>
             </div>
             <span className='quote'>
-              <img src='/images/quote.png' alt="Quote icon" className='quote'/>
+              <Image 
+                src='/images/quote.png' 
+                alt="Quote icon" 
+                width={24} 
+                height={24} 
+                className='quote' 
+              />
             </span>
           </div>
           <p className='review-text'>
@@ -54,7 +83,12 @@ export default function Review() {
           <div className='review'>
             <p>24 April 2025</p>
             <span className='review-rating'>
-              <img src='/images/star-icon.png' alt="Star rating" /> 4.5/5.0
+              <Image 
+                src='/images/star-icon.png' 
+                alt="Star rating" 
+                width={16} 
+                height={16} 
+              /> 4.5/5.0
             </span>
           </div>
         </div>

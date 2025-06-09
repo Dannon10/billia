@@ -1,4 +1,5 @@
-/* eslint-disable react/no-unescaped-entities */
+import Image from 'next/image';
+
 export default function Main() {
   return (
     <section className="main-container">
@@ -12,7 +13,13 @@ export default function Main() {
                 Pay for Electricity, TV, internet, education, and <br /> betting
                 - all in seconds.
               </p>
-              <img src="/images/Group 140.png" alt="Bill Payments Icon" className="main-img-blue" />
+              <Image
+                src="/images/Group 140.png"
+                alt="Bill Payments Icon"
+                width={100}
+                height={100}
+                className="main-img-blue"
+              />
             </div>
             <div className="main-card green">
               <h4>Airtime & Data Top-Up</h4>
@@ -20,7 +27,13 @@ export default function Main() {
                 Buy airtime and mobile data for yourself or others <br /> -
                 instantly and globally.
               </p>
-              <img src="/images/Group 138.png" alt="Airtime and Data Icon" className="main-img-green" />
+              <Image
+                src="/images/Group 138.png"
+                alt="Airtime and Data Icon"
+                width={100}
+                height={100}
+                className="main-img-green"
+              />
             </div>
           </div>
           <div className="virtual-card">
@@ -32,7 +45,13 @@ export default function Main() {
               </p>
             </div>
             <div className="virtual-card-img">
-              <img src="/images/atm-card.png" alt="Virtual Dollar Card" className="virtual-card-img" />
+              <Image
+                src="/images/atm-card.png"
+                alt="Virtual Dollar Card"
+                width={200}
+                height={120}
+                className="virtual-card-img"
+              />
             </div>
           </div>
         </div>
