@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
 import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
@@ -6,7 +7,7 @@ export default function Footer() {
         <footer className='footer-container'>
             <div className='footer-content'>
                 <div className='footer-description'>
-                    <img src='/images/billia-logo-white.png' className='logo' />
+                    <Image src='/images/billia-logo-white.png' className='logo' />
                     <p>Our all-in-one ap for bills, airtime, data, and smart payments - powered by Billia Ai.</p>
                     <div className='foot-icons'>
                         <FaFacebookF /> <FaXTwitter /> <FaInstagram />

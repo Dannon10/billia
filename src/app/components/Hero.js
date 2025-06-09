@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 export default function Hero() {
     return (
         <div className='hero-container'>
@@ -11,12 +12,12 @@ export default function Hero() {
                     <button className="btn-download"><span><img  src="/images/apple (2).png" className="app-icons apple"/></span> Download on the <br/> App Store</button>
                     </div>
                     <div className="community">
-                        <img src="/images/hero-users.png" className="hero-users"/>
+                        <Image src="/images/hero-users.png" className="hero-users"/>
                         <p>Join 20,000+ Nigerians making payments smarter every day.</p>
                     </div>
                 </div>
                 <div className="hero-image">
-                    <img src="/images/hero-image.png" className="hero-img" />
+                    <Image src="/images/hero-image.png" className="hero-img" />
                 </div>
             </div>
         </div>

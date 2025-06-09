@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 'use client';
 
 import { useState } from 'react';
@@ -13,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="navbar-container">
       <div className="nav-logo">
-        <img src="/images/billia-logo.png" className="logo" alt="Billia Logo" />
+        <Image src="/images/billia-logo.png" className="logo" alt="Billia Logo" />
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>
@@ -37,36 +38,3 @@ export default function Navbar() {
 }
 
 
-
-
-
-
-
-
-
-
-// import Link from 'next/link';
-
-// export default function Navbar() {
-//   return (
-//     <nav className="navbar-container">
-//         <div className="nav-logo">
-//         <img src='/images/billia-logo.png' className='logo'/>
-//         </div>
-//         <div className="nav-links">
-//             <ul className="nav-link-list">
-//                 <li className="nav-list-item">
-//                   <Link href="/" className='nav-list-item'>Home</Link>
-//                 </li>
-//                 <li className="nav-list-item">
-//                   <Link href="/about" className='nav-list-item'>About us</Link>
-//                 </li>
-//                 <li className="nav-list-item">Features</li>
-//                 <li className="nav-list-item">Testimonials</li>
-//                 <li className="nav-list-item">FAQ</li>
-//                 <li className="nav-list-item">Contact Us</li>
-//             </ul>
-//         </div>
-//     </nav>
-//   )
-// }
