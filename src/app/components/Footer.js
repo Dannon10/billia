@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Link from 'next/link';
+import Image from 'next/image';
 import { FaFacebookF, FaXTwitter, FaInstagram } from 'react-icons/fa6';
 
 export default function Footer() {
@@ -7,8 +8,14 @@ export default function Footer() {
         <footer className='footer-container'>
             <div className='footer-content'>
                 <div className='footer-description'>
-                    <img src='/images/billia-logo-white.png' className='logo' />
-                    <p>Our all-in-one ap for bills, airtime, data, and smart payments - powered by Billia Ai.</p>
+                    <Image 
+                        src='/images/billia-logo-white.png' 
+                        alt='Billia Logo' 
+                        width={150} 
+                        height={50} 
+                        className='logo' 
+                    />
+                    <p>Our all-in-one app for bills, airtime, data, and smart payments - powered by Billia Ai.</p>
                     <div className='foot-icons'>
                         <FaFacebookF /> <FaXTwitter /> <FaInstagram />
                     </div>
@@ -17,8 +24,7 @@ export default function Footer() {
                 <div className='footer-lists'>
                     <ul className='footer-list'>
                         <h5>Company</h5>
-                        <li>
-                            <Link href="/about">About us</Link></li>
+                        <li><Link href="/about">About us</Link></li>
                         <li>Features</li>
                         <li>Testimonials</li>
                         <li>Services</li>
@@ -38,6 +44,6 @@ export default function Footer() {
                 </div>
             </div>
             <div className='copy'>&copy; 2025 Billia Technologies. All rights reserved.</div>
-        </footer >
+        </footer>
     )
 }

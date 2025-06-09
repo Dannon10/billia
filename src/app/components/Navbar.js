@@ -3,6 +3,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 import { HiMenu, HiX } from 'react-icons/hi';
 
 export default function Navbar() {
@@ -14,7 +15,13 @@ export default function Navbar() {
   return (
     <nav className="navbar-container">
       <div className="nav-logo">
-        <img src="/images/billia-logo.png" className="logo" alt="Billia Logo" />
+        <Image
+          src="/images/billia-logo.png"
+          alt="Billia Logo"
+          width={120} 
+          height={40}
+          className="logo"
+        />
       </div>
 
       <div className="mobile-menu-icon" onClick={toggleMenu}>
@@ -36,5 +43,3 @@ export default function Navbar() {
     </nav>
   );
 }
-
-
