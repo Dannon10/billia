@@ -5,7 +5,7 @@ export default function Article() {
   return (
     <section className='article-section'>
       <Image
-        src='/images/Image 7.png'
+        src='/images/image 7.png'
         alt='Billia AI illustration'
         width={600}    
         height={400}
